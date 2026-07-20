@@ -20,7 +20,7 @@ Zainstalowałam minikube v1.38.1, uruchomiłam klaster (Kubernetes v1.35.1),
 zweryfikowałam działanie przez `kubectl get nodes` - węzeł "minikube" w stanie Ready.
 
 ## Problemy i rozwiązania
-(brak / opisz jeśli coś Ci się wywaliło)
+(brak)
 
 ## Checklist
 - [x] Rozumiem różnicę między Dockerem a Kubernetesem
