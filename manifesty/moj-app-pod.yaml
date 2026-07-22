@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: moj-app
+spec:
+  containers:
+    - name: moj-app
+      image: nginx
+      envFrom:
+        - configMapRef:
+            name: moj-config
